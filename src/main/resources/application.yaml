@@ -1,6 +1,5 @@
 spring:
   application:
     name: ead-service-registry
-  config:
-    activate:
-      on-profile: dev
+  profiles:
+    active: dev
